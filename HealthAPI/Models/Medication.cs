@@ -11,6 +11,7 @@ namespace HealthAPI.Models
         [Key]
         public string Name { get; set; }
         public string Doses { get; set; }
+        public string Supplier { get; set; }
     }
 
 }

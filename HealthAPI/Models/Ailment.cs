@@ -10,5 +10,6 @@ namespace HealthAPI.Models
     {
         [Key]
         public string Name { get; set; }
+        public string Symptoms { get; set; }
     }
 }
