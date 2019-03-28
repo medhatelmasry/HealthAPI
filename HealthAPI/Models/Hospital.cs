@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace HealthAPI.Models
 {
-    public class MedHospitalication
+    public class Hospital
     {
         [Key]
         public string Name { get; set; }
